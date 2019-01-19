@@ -24,9 +24,9 @@ button C69 T"+1 " A"G91 G1 Z1 F6000"
 button C87 T"+5 " A"G91 G1 Z5 F6000"
 button C108 T"+25" A"G91 G1 Z25 F6000"
 image R51 C0 L"hline.img"
-text R52 C8 F0 T"X "
-value N510 W25
+text R52 C2 F0 T"X "
+alter N510 D2 W32 H2
 text T" Y "
-value N511 W25
+alter N511 D2 W32 H2
 text T" Z "
-value N512 D2 W30
+alter N512 D2 W32 H2
