@@ -1,0 +1,5 @@
+button R0 C0 F0 T" BACK " A"return"
+image R11 C0 L"hline.img"
+button R13 C24 T"COOLDOWN" A"M98 P#0" L"/menu/cooldown"
+button R23 C24 T"MOTORS OFF" A"M18"
+button R33 C24 T"REBOOT MAESTRO" A"M999"

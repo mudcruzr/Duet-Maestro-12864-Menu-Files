@@ -1,8 +1,9 @@
 ; "Not printing" Menu
 ;
-button R46 C0 F0 V5 T"  PREHEAT  " A"menu heat"
-button V5 T"  MOVE  " A"menu move"
-button V5 "  PRINT  " A"menu listFiles"
+button R46 C0 F0 V5 T"  HEAT " A"menu heat"
+button V5 T" MOVE " A"menu move"
+button V5 " CTRL " A"menu control"
+button V5 " PRINT " A"menu listFiles"
 ;
 ; "Printing" Menu
 ;
