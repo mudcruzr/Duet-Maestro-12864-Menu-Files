@@ -1,0 +1,9 @@
+M117 "                           " ;clear any displayed messages
+M117 "Homing all axes"
+G28
+M117 "Heating bed & nozzle"
+M190 S50
+M109 S180
+M117 "Running mesh compensation"
+G29
+M117 "Done"
