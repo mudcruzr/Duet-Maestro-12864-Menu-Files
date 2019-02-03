@@ -58,4 +58,3 @@ text T"%"
 image R24 C92 L"baby.img"
 alter R22 C102 N521 W26 D2
 ;
-value R55 C0 F0 W128 N501
