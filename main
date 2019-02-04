@@ -1,18 +1,18 @@
 ; "Not printing" Menu
 ;
-button R46 C0 F0 V5 T"  HEAT " A"menu heat"
+button R51 C0 F0 V5 T" HEAT " A"menu heat"
 button V5 T" MOVE " A"menu move"
 button V5 " CTRL " A"menu control"
 button V5 " PRINT " A"menu listFiles"
 ;
 ; "Printing" Menu
 ;
-button R46 C0 F0 V2 T"  BABYSTEP  " A"menu babysteps"
+button R51 C0 F0 V2 T"  BABYSTEP  " A"menu babysteps"
 button V2 T"  PAUSE        " A"M25"
 ;
 ; "Paused" Menu
 ;
-button R46 C0 F0 V6 T"  RESUME  " A"M24"
+button R51 C0 F0 V6 T"  RESUME  " A"M24"
 button V6 T"  ABORT         " A"M0 H1"
 ;
 image R3 C2 L"d3d.img"
@@ -36,25 +36,25 @@ text T"%"
 image R21 C0 L"hline.img"
 ;
 ;
-image R33 C0 L"hline.img"
-text R34 C8 F0 T"X: "
+image R35 C0 L"hline.img"
+text R37 C8 F0 T"X: "
 value N510 W25
 text T" Y: "
 value N511 W25
 text T" Z: "
 value N512 D2 W30
-image R45 C0 L"hline.img"
+image R49 C0 L"hline.img"
 ;
 ;
-image R24 C4 L"flowrate.img"
-alter R22 C12 H2 N400 W20
+image R25 C4 L"flowrate.img"
+alter R23 C12 H2 N400 W20
 text T"%"
 ;
 ;
-image R24 C48 L"speed.img"
-alter R22 C56 H2 N500 W20
+image R25 C48 L"speed.img"
+alter R23 C56 H2 N500 W20
 text T"%"
 ;
-image R24 C92 L"baby.img"
-alter R22 C102 N521 W26 D2
+image R25 C92 L"baby.img"
+alter R23 C102 N521 W26 D2
 ;
