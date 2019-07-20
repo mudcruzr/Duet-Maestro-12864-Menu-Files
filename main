@@ -31,7 +31,6 @@ value N80 W20
 ;
 image R0 C112 L"fan.img"
 alter R10 C98 H2 N300 W20
-text T"%"
 ;
 image R21 C0 L"hline.img"
 ;
@@ -48,12 +47,10 @@ image R49 C0 L"hline.img"
 ;
 image R25 C4 L"flowrate.img"
 alter R23 C12 H2 N400 W20
-text T"%"
 ;
 ;
 image R25 C48 L"speed.img"
 alter R23 C56 H2 N500 W20
-text T"%"
 ;
 image R25 C92 L"baby.img"
 alter R23 C102 N521 W26 D2
