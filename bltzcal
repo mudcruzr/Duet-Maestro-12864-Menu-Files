@@ -1,0 +1,5 @@
+button R0 C0 F0 T"BACK " A"return"
+button R10 C0 T"TRIGGER AND SHOW (WEB)" A"G30 S-1"
+button R20 C0 T"SET ZERO" A"G92 Z0"
+button R30 C0 T"DISABLE Z LIMITS" A"M564 S0"
+button R40 C0 T"MOVE" A"menu bltmove"
